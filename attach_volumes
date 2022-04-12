@@ -3,3 +3,8 @@
  
  
  docker run -d --restart=always -u root -p 8080:8080 -p 50000:50000 -v $(pwd)/jenkins_data:/var/jenkins_home -v $(which docker):/usr/bin/docker -v /var/run/docker.sock:/var/run/docker.sock -v /home/ec2-user/.docker/config.json:/root/.docker/config.json -v ~/.aws:/root/.aws --name jenkins myjenkins
+
+docker images
+docker ps -aq
+docker exec -it <container id> bin/bash
+docker volumes inspect
