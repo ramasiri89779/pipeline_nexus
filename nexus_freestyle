@@ -1,0 +1,25 @@
+Nexus Repository Manager Publisher
+Nexus Instance
+
+             : maven2_hosted
+Nexus Repository
+?
+
+            :maven2_hosted
+Tag
+?
+Packages
+Group
+           : com.mycompany
+Artifact
+         :  fancy
+Version
+          :      1.0
+Packaging
+           :  war
+Artifacts
+Maven Artifact
+File Path
+            :    /var/jenkins_home/workspace/spring-3/target/spring3-mvc-maven-xml-hello-world-1.0-SNAPSHOT.war
+Classifier
+Extension
