@@ -1,0 +1,1 @@
+run: curl -v -u admin:admin -T runner/work/sprig3.war
